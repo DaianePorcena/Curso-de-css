@@ -1,0 +1,30 @@
+.container {
+    background: blueviolet;
+    /* padding: 20px; */
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    gap: 10px;
+}
+
+.item {
+    padding: 8px;
+    background: yellow;
+}
+
+#container-01 {
+    flex-flow: row wrap;
+}
+
+#container-02 {
+    flex-flow: column wrap;
+}
+
+.item-4{
+    order: -1;
+}
+
+.item-9{
+    order: -1;
+}
