@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        .image-container{
+            border: 2px solid red;
+            height: 800px;
+            width: 100%;
+            background-image: url('./marek-piwnicki-s_fgw1df-_I-unsplash.jpg');
+            background-size: contain;
+
+        }
+
+        @media screen and (max-width: 690px) {
+            .image-container {
+                background-image: url('./takashi-miyazaki-BFQlxG_tsg4-unsplash.jpg');
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <p><b>To understand this example, you should open this page on phone or tablet</b></p>
+
+    <div class="image-container">
+        
+
+    </div>
+
+    <!-- <picture>
+        <source srcset="./marek-piwnicki-s_fgw1df-_I-unsplash.jpg" media="(max-width: 680px)">
+        <source srcset="./takashi-miyazaki-BFQlxG_tsg4-unsplash.jpg">
+        <img src="./takashi-miyazaki-BFQlxG_tsg4-unsplash.jpg" alt="">
+    </picture> -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum modi omnis hic dolorem rem. Tempore possimus
+        doloremque explicabo illo optio? Officia maiores alias repellendus rerum tempore vitae explicabo labore libero?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia earum amet libero numquam praesentium nisi
+        dolorum culpa, alias aspernatur cupiditate doloremque, itaque, fuga eius ipsa. Laborum possimus iusto delectus
+        voluptatum!
+    </p>
+</body>
+
+</html>
