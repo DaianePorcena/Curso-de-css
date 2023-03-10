@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo-classes</title>
+</head>
+<body>
+    <h1>Pseudo-classes:</h1>
+
+    <div>
+        <input type="checkbox" name="invalid">
+        <label for="invalid">:invalid</label>
+    </div>
+    <div>
+        <input type="checkbox" name="valid">
+        <label for="valid">:valid</label>
+    </div>
+    <div>
+        <input type="checkbox" name="in-range">
+        <label for="in-range">:in-range3</label>
+    </div>
+    <div>
+        <input type="checkbox" name="out-ofrange">
+        <label for="out-ofrange">:out-ofrange</label>
+    </div>
+   <hr>
+
+    <form>
+        <h3>Faça sua compra:</h3>
+        <label for="email">E-mail:</label>
+        <input name="email" type="email" placeholder="name@example.com" required>
+        
+        <span class="error">E-mail inválido.</span>
+        
+        <label for="codigo-produto">Código do produto:</label>
+        <input 
+            name="codigo-produto" 
+            type="number" 
+            min="1000"
+        >
+        
+        <span class="error">Código inválido.</span>
+
+        <label for="cupom">Cupom de Desconto:</label>
+        <input 
+            name="cupom"
+            type="text"
+            pattern="[a-z]+"
+            placeholder="Apenas letras minúsculas"
+        >
+        
+        <span class="error">Cupom de Desconto inválido.</span>
+
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date"
+            name="data-nascimento"
+            min="1962-01-01"
+            max="2004-12-31"
+        >
+
+        <span class="error">Data de nascimento inválida.</span>
+        
+        <label for="quantidade">Quantidade:</label>
+        <input 
+            type="number"
+            name="amount"
+            min="3"
+            max="10"
+        >
+        
+        <span class="error">Quantidade inválida.</span>
+
+        <label for="">
+            <input type="checkbox" required>
+            <span>Li e aceito os termos de uso</span>
+        </label>
+
+        <button type="submit">Comprar</button>
+    </form>
+</body>
+</html>

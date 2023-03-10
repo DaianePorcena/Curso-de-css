@@ -1,0 +1,14 @@
+code{
+    background-color: lightgrey;
+    font-weight: bold;
+}
+
+summary::marker{
+    color: red;
+    content: "?";
+}
+
+li::marker{
+    color: blueviolet;
+    content: "?";
+}

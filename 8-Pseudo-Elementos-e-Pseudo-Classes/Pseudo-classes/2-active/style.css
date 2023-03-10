@@ -1,0 +1,13 @@
+button:active{
+    background-color: purple;
+    color: white;
+}
+
+a:active {
+    background-color: pink;
+    color: black;
+}
+
+h1:active {
+    background-color: greenyellow;
+}

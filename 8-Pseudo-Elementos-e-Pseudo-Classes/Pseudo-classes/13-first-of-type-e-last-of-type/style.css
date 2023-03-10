@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+article :last-of-type{
+    color: orange;
+}
