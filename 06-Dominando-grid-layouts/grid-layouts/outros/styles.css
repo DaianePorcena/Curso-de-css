@@ -1,0 +1,66 @@
+/* Exempplo 01 */
+
+/* .container {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: inline-grid;
+}
+
+.item {
+    background-color: palegreen;
+} */
+
+
+/* =========================================== */
+
+/* Exemplo 02 - Adicionando colunas e linhas */
+
+.container {
+    padding: 10px;
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(130px, auto));
+    
+    
+
+    /* grid-auto-rows: 2fr; */
+    /* grid-template-columns: max-content max-content; */
+    /* grid-template-columns: repeat(3, 1fr 2fr);
+    /* 1fr 2fr, 1fr 2fr, 1fr 2fr */
+    /*grid-template-rows: repeat(2, fr); */
+}
+/* 
+.item {
+    border: 1px solid black;
+} */
+
+.item-01 {
+    background-color: palevioletred;
+}
+
+.item-02 {
+    background-color: cornflowerblue;
+}
+
+.item-03 {
+    background-color: palegreen;
+}
+
+.item-04 {
+    background-color: orange;
+}
+
+.item-05 {
+    background-color: cadetblue;
+}
+
+.item-06 {
+    background-color: aqua;
+}
+
+.item-07 {
+    background-color: salmon;
+}
