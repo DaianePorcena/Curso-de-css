@@ -1,0 +1,35 @@
+div{
+    text-align: center;
+}
+
+.exemplo{
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background-color: blue;background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210114/pngtree-low-polygon-geometric-gradient-background-image_533521.jpg');
+    background-blend-mode: luminosity;
+    image-rendering: auto;
+
+}
+
+#padding-box{
+    background-clip: padding-box;
+}
+
+#border-box{
+    background-clip: border-box;
+}
+
+#content-box{
+    background-clip: content-box;
+}
+
+#text{
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos</title>
+    <style>
+        .exemplo,  .exemplo2{
+            width: 100px;
+            color: black;
+            background-color: blueviolet;
+        }
+
+        .exemplo2{
+            background-color: aquamarine;
+        }
+        #normal{
+            word-wrap: normal;
+        }
+
+        /* Exemplos word-wrap*/
+
+        #break-word{
+            word-wrap: break-word;
+        }
+
+        /* Exemplos word-break*/
+
+        #normal{
+            word-break: normal;
+        }
+
+        #break-all{
+            word-break: break-all;
+        }
+
+        #keep-all{
+            word-break: keep-all;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>word-wrap</code></h1>
+    <p>Define, caso uma palavra seja muito grande para caber em uma linha, se ela será quebrada em qualquer caractere para que uma parte dea fique na linha e o restante próximo, ou se não, toda palavra deve ficar na mesma linha e ultrapassa os limites que definimos para o elemento.</p>
+
+    <code>word-wrap: normal</code>
+    <p id="normal" class="exemplo">
+        Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS
+    </p>
+
+    <code>word-wrap: break-word</code>
+    <p id="break-word" class="exemplo">
+        Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS
+    </p>
+
+    <h1>Propriedade <code>word-break</code></h1>
+    <p>Define, caso uma palavra seja muito grande para caber em uma linha, se ela será quebrada em qualquer caractere para que uma parte dea fique na linha e o restante próximo, ou se não, toda palavra deve ficar na mesma linha e ultrapassa os limites que definimos para o elemento.</p>
+
+    <code>word-break: normal</code>
+    <p id="normal" class="exemplo2">
+        Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS
+    </p>
+
+    <code>word-break: break-all</code>
+    <p id="break-all" class="exemplo2">
+        Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS
+    </p>
+
+    <code>word-break: keep-all</code>
+    <p id="keep-all" class="exemplo2">
+        Trilha de CSS TrilhaDeCSSTudoJunto Trilha de CSS
+        CSS トラックをまとめてCSS トラックをまとめて
+    </p>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(243, 119, 222);
+}
+
+div{
+    margin-bottom: 30px;
+}
+/* .exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/background-02.jpg);
+    background-size: cover;
+    border: 1px solid red;
+    overflow: auto;
+    /* background-repeat: no-repeat;
+    background-position: center 80%;}  
+*/
+.exemplo{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/background-02.jpg);
+    box-sizing: 100% 100%;
+    background-repeat: no-repeat;
+    border: 15px dashed palegreen;
+    padding: 30px;
+}
+
+/* BACKGROUND Origin */
+
+#paddin-box{
+    background-origin: padding-box;
+}
+
+#border-box{
+    background-origin: border-box;
+}
+
+#content-box{
+    background-origin: content-box;
+}
+
+/* BACKGROUND ATTACHEMENT */
+
+/* #fixed{
+    background-attachment: fixed;
+}
+
+#scroll{
+    background-attachment: scroll;
+}
+
+#local{
+    background-attachment: local;
+} */
+
+/* REPETIÇÃO*/
+
+/* #repeat-x{
+    background-repeat: repeat-x;
+}
+
+#repeat-y{
+    background-repeat: repeat-y;
+}
+
+#space{
+    background-repeat: space;
+}
+
+#round{
+    background-repeat: round;
+}
+
+#no-repeat{
+    background-repeat: no-repeat;
+} */
+
+/* REDIMENCIONAMENTO*/
+
+/* #cover{
+    background-size: cover;
+}
+
+#contain{
+    background-size: contain;
+}
+
+#tamanho{
+    background-size: 200px;
+}
+
+#exemplo-x-y{
+background-size: 200px 100%;
+}
+
+#exemplo-camadas{
+    background-size: contain, cover;
+} */
