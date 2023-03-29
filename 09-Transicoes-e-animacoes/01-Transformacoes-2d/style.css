@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    margin: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    height: 100vh;
+    display: grid;
+    grid: 300px / 1fr 1fr 1fr;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Translate */
+
+.box-1 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.box-1:hover {
+    transform: translate(50px, 100px);
+}
+
+/* Rotate */
+
+.box-2 {
+    /* background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%); */
+    background: url(./assets/thilak-mohan-_LfLA5Nqfko-unsplash.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box-2:hover {
+    transform: rotateX(40deg);
+}
+
+/* Scale */
+
+.box-3 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box-3:hover {
+    transform: scaleY(-0.5);
+}
+
+/* Skew */
+
+.box-4 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box-4:hover {
+    transform: skew(20deg, 20deg);
+}
+
+/* matrix */
+
+.box-5 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box-5:hover {
+    /* matrix: matrix (
+        sacaleX(),
+        skewY(),
+        skewX(),
+        scaleY(),
+        translateX(),
+        translateY()
+    ) */
+
+    transform: matrix(1.2, 0, 0, 1.2 , 50, 50);
+}
