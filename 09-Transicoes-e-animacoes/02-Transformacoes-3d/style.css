@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    perspective: 300px;
+
+    /* perspective-origin: right; */
+    /* perspective-origin: top; */
+    transform-style: preserve-3d;
+}
+
+.box-1 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    /* transform: rotateX(20deg) rotateY(40deg) rotateZ(20deg); */
+    transform: translateZ(-200px) rotateX(20deg);
+}
+
+/* Escalonado elementos de forma tridimensional */
+
+.box-2 {
+    background: linear-gradient(90deg, #FC4668 0%, #3F5EFB 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    transition: 2s;
+    transform-origin: 0 0;
+    /* transform: rotateX(20deg); */
+}
+
+.box-2:hover {
+    /* transform: scaleZ(-5) rotateX(20deg); */
+    transform: scale(0.85);
+}
+
+/* Transform-style */
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    position: absolute;
+    background: linear-gradient(90deg, #d53369, #ffff00);
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+    transform: rotateY(10deg);
+    backface-visibility: visible;
+}
+
+/* .box-3:nth-child(1) {
+    background: linear-gradient(90deg, #d53369, #ffff00);
+    transform: rotateY(40deg);
+    transform: matrix3d(0.515, -0.326, 0.839, 0,
+            0.326, -0.292, -0.951, 0,
+            -0.839, 0.951, -0.168, 0,
+            0, 0, 0, 1)
+} */
+
+.box-3:nth-child(2) {
+    background: linear-gradient(90deg, #FC4668, #3F5EFB);
+    transform: rotateY(-40deg);
+}
