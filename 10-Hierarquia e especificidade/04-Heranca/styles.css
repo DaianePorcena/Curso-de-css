@@ -1,0 +1,15 @@
+body{
+    font-size: Arial, sans-serif;
+    color: red;
+    font-size: 1.5rem;
+}
+
+.text{
+    border: 2px solid blue;
+    padding: 8px;
+}
+
+.text p{
+    border: inherit;
+    padding: inherit;
+}
