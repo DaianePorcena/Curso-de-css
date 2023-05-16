@@ -1,3 +1,7 @@
+:root{
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146c43;
+}
 .btn{
     --bs-btn-bg: #198754;
     --bs-btn-border-color: #146c43;
@@ -5,6 +9,8 @@
     --bs-btn-hover-border-color: #146c43;
     --bs-btn-active-bg: #0c4b2d;
 }
+
+
 .navbar-brand img{
     width: 50px;
 }
@@ -12,6 +18,10 @@
 main{
     margin-top: 4
     rem;
+}
+
+section{
+    scroll-margin-top: 6rem;
 }
 
 /* Tamanho do carousel */
